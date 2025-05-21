@@ -1,0 +1,11 @@
+name = "germanytv"
+type = "webpack"
+account_id = "" # Cloudflare account ID
+workers_dev = true
+route = ""
+zone_id = "" # Cloudflare zone ID
+compatibility_date = "2023-10-30"
+
+[site]
+bucket = "./build" # React build output folder
+entry-point = "workers-site" 
